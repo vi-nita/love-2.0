@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>homepage</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+      .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 15vh;
+    } 
+      .my-link {
+      color: blueviolet;
+      text-decoration: underline;
+      border-bottom: 5px black;
+      font-size: 20px;
+    }
+    </style>
+        <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/originals/12/1b/b5/121bb5a557b502001f8b5b8cbfd410e6.jpg">
+  </head>
+  <body>
+    <h1 style="text-align:center;">Welcome!</h1>
+    <hr>
+    <p style="text-align:center;">hello! are you feeling a little down? do you want to cheer someone up? are you bored out of your mind? if you answered yes to either of the questions, you have come to the right page! click on the hyperlinks and have fun!</p>
+  <hr>
+    <h2 style="text-align:center;">What would you like to do?</h2>
+
+    <div class="container">
+    <a href="./view.html" class="my-link">Click here to view encouragement</a>
+  </div>
+
+     <div class="container">
+    <a href="./write.html" class="my-link">Click here to write encouragement</a>
+     </div>
+
+     <div class="container">
+    <a href="./entertain.html" class="my-link">Click here to visit fun websites</a>
+     </div>
+       
+  </body>
+</html>
+        

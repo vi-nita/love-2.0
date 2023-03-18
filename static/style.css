@@ -1,0 +1,35 @@
+body {
+  background-color: lightpink;
+  font-family: sans-serif;
+}
+
+h1 {
+  background-color: hotpink;
+  color: mintcream
+}
+
+h2 {
+  background-color: deeppink;
+  color: floralwhite
+}
+
+
+p {
+  background-color: palevioletred;
+  color: white;
+  font-size: 18px
+}
+
+<style>
+    .my-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #FB6F92;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      font-size: 18px;
+      border-radius: 8px;
+      border: none;
+    }
+  </style>

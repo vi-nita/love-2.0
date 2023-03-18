@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>lotsoflove</title>
+  <link rel="stylesheet"heet" href="{{ url_for('static', filename='style.css') }}">
+          <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/originals/12/1b/b5/121bb5a557b502001f8b5b8cbfd410e6.jpg">
+  <style>
+    .my-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #FB6F92;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      font-size: 18px;
+      border-radius: 8px;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <h2>Encouragement Phrase: {{ phrase }}</h2>
+<button onclick="location.reload()">Get another one!</button>
+<br>
+<br>
+<a href="/goodbye" class="my-button">goodbye <3</a>
+</body>
+</html>
